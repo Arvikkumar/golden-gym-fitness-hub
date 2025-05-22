@@ -12,18 +12,18 @@ const TestimonialsSection = () => {
       rating: 5
     },
     {
-      name: "Priya Singh",
-      role: "Member since 2020",
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
-      quote: "The personal training at Golden Gym helped me lose 20 kg and get in the best shape of my life. The supportive environment keeps me motivated.",
-      rating: 5
-    },
-    {
       name: "Amit Patel",
       role: "Member since 2018",
       image: "https://randomuser.me/api/portraits/men/62.jpg",
       quote: "As a competitive bodybuilder, I need a gym that understands my needs. Golden Gym has everything I require for my training regimen.",
       rating: 4
+    },
+    {
+      name: "Sanjay Sharma",
+      role: "Member since 2021",
+      image: "https://randomuser.me/api/portraits/men/44.jpg",
+      quote: "The personal training with Vikas Kumar has transformed my body composition. His gymnastics-inspired workouts have given me strength I never thought possible.",
+      rating: 5
     }
   ];
 
