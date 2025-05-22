@@ -9,7 +9,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80')",
         }}
       >
         <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
@@ -28,8 +28,8 @@ const Hero = () => {
           <Link to="/membership" className="btn-primary text-lg">
             View Membership Plans
           </Link>
-          <Link to="/contact" className="btn-secondary text-lg">
-            Get Free Trial
+          <Link to="/services" className="btn-secondary text-lg">
+            Explore Our Services
           </Link>
         </div>
       </div>

@@ -14,10 +14,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 47 100% 50%;  /* Gold color */
+    --primary: 45 55% 52%;  /* Classic gold color */
     --primary-foreground: 0 0% 0%;
 
-    --secondary: 0 0% 7%; /* Dark gray/black */
+    --secondary: 0 0% 17%; /* Dark charcoal */
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
@@ -31,9 +31,9 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 47 100% 50%;
+    --ring: 45 55% 52%;
 
-    --radius: 0.5rem;
+    --radius: 0.25rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -75,7 +75,7 @@
   }
   
   .gold-gradient {
-    background: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%);
+    background: linear-gradient(135deg, #D4AF37 0%, #A88A2B 100%);
   }
   
   .btn-primary {

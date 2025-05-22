@@ -64,13 +64,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				gold: {
-					DEFAULT: '#FFD700',
-					light: '#FFEA80',
-					dark: '#D4AF37'
+					DEFAULT: '#D4AF37',
+					light: '#F2D675',
+					dark: '#A88A2B'
 				},
 				gym: {
-					dark: '#111111',
-					gray: '#333333',
+					dark: '#2A2A2A',
+					gray: '#555555',
 					light: '#F5F5F5'
 				}
 			},

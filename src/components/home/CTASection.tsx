@@ -9,7 +9,7 @@ const CTASection = () => {
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-full h-full" 
              style={{
-               backgroundImage: "url('https://www.transparenttextures.com/patterns/carbon-fibre.png')"
+               backgroundImage: "url('https://www.transparenttextures.com/patterns/diamond-eyes.png')"
              }}>
         </div>
       </div>
@@ -26,8 +26,8 @@ const CTASection = () => {
             <Link to="/membership" className="btn-primary text-lg">
               View Membership Plans
             </Link>
-            <Link to="/contact" className="btn-secondary text-lg">
-              Schedule a Tour
+            <Link to="/services" className="btn-secondary text-lg">
+              Explore Our Services
             </Link>
           </div>
         </div>

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Layout from '../components/Layout';
 import Hero from '../components/home/Hero';
 import FeaturesSection from '../components/home/FeaturesSection';
 import AboutSection from '../components/home/AboutSection';
@@ -11,7 +12,7 @@ import LocationSection from '../components/home/LocationSection';
 
 const Home = () => {
   return (
-    <>
+    <Layout>
       <Hero />
       <FeaturesSection />
       <AboutSection />
@@ -20,7 +21,7 @@ const Home = () => {
       <TestimonialsSection />
       <LocationSection />
       <CTASection />
-    </>
+    </Layout>
   );
 };
 
