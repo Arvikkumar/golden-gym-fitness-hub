@@ -1,5 +1,7 @@
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+
+import React, { useEffect } from 'react';
+import { useLocation, Link } from 'react-router-dom';
+import Layout from '../components/Layout';
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,15 +14,20 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+    <Layout>
+      <div className="min-h-[80vh] flex items-center justify-center bg-gym-light">
+        <div className="text-center p-8">
+          <h1 className="text-gold text-9xl font-display font-bold mb-4">404</h1>
+          <p className="text-2xl text-gym-dark mb-8">Oops! Page not found</p>
+          <p className="text-gym-gray mb-8 max-w-md mx-auto">
+            The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+          </p>
+          <Link to="/" className="btn-primary">
+            Return to Home
+          </Link>
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
